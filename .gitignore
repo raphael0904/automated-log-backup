@@ -1,0 +1,22 @@
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.secret
+backup.env
+
+# Generated backup archives
+backups/
+*.tar.gz
+*.tmp
+
+# Runtime logs and lock files
+reports/*.log
+*.lock
+
+# Python artifacts, if Python is used later
+__pycache__/
+*.py[cod]
+.venv/
+venv/
