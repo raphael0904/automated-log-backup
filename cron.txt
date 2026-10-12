@@ -1,0 +1,1 @@
+0 0 * * * /bin/bash /home/raph/devops-task3/scripts/backup_logs.sh >> /home/raph/devops-task3/reports/cron.log 2>&1
