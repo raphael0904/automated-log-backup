@@ -100,7 +100,7 @@ Replace `ARCHIVE_NAME.tar.gz` with an actual generated filename.
 To run the script every day at 12:00 AM, add the following entry to the user's crontab, replacing `/home/raph` if your home directory differs:
 
 ```cron
-0 2 * * * /bin/bash /home/raph/devops-task3/scripts/backup_logs.sh
+0 0 * * * /bin/bash /home/raph/devops-task3/scripts/backup_logs.sh
 ```
 
 View the scheduled jobs:
